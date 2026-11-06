@@ -1,0 +1,255 @@
+(footprint "SMA_Amphenol_901-144_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "https://www.amphenolrf.com/library/download/link/link_id/593640/parent/901-144/")
+	(tags "SMA THT Female Jack Vertical")
+	(property "Reference" "J1"
+		(at 0 -4.75 0)
+		(layer "F.SilkS")
+		(uuid "869d3a33-54e0-44fc-999e-de318799bd5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_Coaxial_Small"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "a7512f08-9841-45f9-ad5d-aafa8900452b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b3f026f-bdff-45f0-8cd2-d63e92035a2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea274d9e-1a6e-40bf-9b7b-bca915e2839e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
+	(sheetname "/")
+	(sheetfile "PMT_R14374_KiCad.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.355 -1.45)
+		(end -3.355 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "778d6fe2-cfe6-4fd0-bd5f-d97128c03e7f")
+	)
+	(fp_line
+		(start -1.45 -3.355)
+		(end 1.45 -3.355)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad69e958-3b79-4ff0-b009-9c5991171bd1")
+	)
+	(fp_line
+		(start -1.45 3.355)
+		(end 1.45 3.355)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1921791f-ae3d-4247-b461-5d196b6eef49")
+	)
+	(fp_line
+		(start 3.355 -1.45)
+		(end 3.355 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1af6db49-0739-4929-9d2b-ebec4840dd26")
+	)
+	(fp_line
+		(start -4.17 -4.17)
+		(end -4.17 4.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "342beb16-1fb5-462e-b2cc-63eceda73e6b")
+	)
+	(fp_line
+		(start -4.17 -4.17)
+		(end 4.17 -4.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57354642-7c72-450d-9ffb-24fc04884df8")
+	)
+	(fp_line
+		(start 4.17 4.17)
+		(end -4.17 4.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ada85584-3e7b-4281-bc74-09b936ba3e41")
+	)
+	(fp_line
+		(start 4.17 4.17)
+		(end 4.17 -4.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2e30ee7-f52c-4e9a-840e-0374c81eb3b5")
+	)
+	(fp_line
+		(start -3.175 -3.175)
+		(end -3.175 3.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "483cd788-25a4-4a3b-8a3b-e913ef98e93d")
+	)
+	(fp_line
+		(start -3.175 -3.175)
+		(end 3.175 -3.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef351c7e-99b1-4bbf-b0f8-d840ce85adaa")
+	)
+	(fp_line
+		(start -3.175 3.175)
+		(end 3.175 3.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9d0bc00-9103-4b6d-b251-7501ab99c099")
+	)
+	(fp_line
+		(start 3.175 -3.175)
+		(end 3.175 3.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3aff78ee-df21-4285-85f1-a2f4ddd62353")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.175 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "085f0a4b-a228-47dd-a876-1e827a8d6f47")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e6e506b7-fc85-4e09-aa8c-a5f59361b9ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3de3b4d1-dd0b-4583-ac22-1587efc65979")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -2.54)
+		(size 3 3)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b0e1af3-c311-4405-b0e9-303ddc2cc3d2")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 2.54)
+		(size 3 3)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c0238106-f42f-4c87-92e5-ad294b13ad41")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 3 3)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22bc994d-6bb1-47bb-acbf-8fe6b502974d")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 2.54)
+		(size 3 3)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8dc734b8-74a5-4152-8de6-529a4e9ded36")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
